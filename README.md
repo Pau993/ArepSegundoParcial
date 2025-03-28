@@ -40,3 +40,7 @@ A continuación, se presentan los pasos seguidos para el despliegue en AWS:
 6. **Prueba final del despliegue**
    ![Paso 6](https://github.com/user-attachments/assets/39276d52-84ac-46ef-98ee-d8ed37e07323)
 
+   https://github.com/user-attachments/assets/6e87e549-3447-41bf-9e45-338305e47430
+
+
+
