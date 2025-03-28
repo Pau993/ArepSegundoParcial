@@ -13,6 +13,8 @@ https://github.com/user-attachments/assets/38c7dfb3-5075-4fff-8611-2118554d9e4e
 
 # Despliegue en AWS
 
+![image](https://github.com/user-attachments/assets/21fb55fa-71cc-42dd-84b3-b18450c78e35)
+
 ![image](https://github.com/user-attachments/assets/f0b17fa7-83ef-46de-95e8-06e1ec52ad1b)
 
 ![image](https://github.com/user-attachments/assets/91325332-6ff9-4a54-aa31-5516f0b53d04)
