@@ -12,6 +12,7 @@ A continuación se evidencia que la aplicación de la secuencia en funcional par
 https://github.com/user-attachments/assets/38c7dfb3-5075-4fff-8611-2118554d9e4e
 
 # Despliegue en AWS
+![image](https://github.com/user-attachments/assets/56ce2b56-fe05-43fa-9b1a-d3abad006ffc)
 
 ![image](https://github.com/user-attachments/assets/fef40a62-1b61-4616-a690-594ac6c8e7c6)
 
