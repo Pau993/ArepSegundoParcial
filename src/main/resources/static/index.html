@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcial Secuencia Lucas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Secuencia Lucas</h1>
+    <form action="/hello">
+        <label for="name">Ingrese el n válido</label><br>
+        <input type="text" id="name" name="name" placeholder="Ingrese su n valor"><br><br>
+        <input type="button" value="Submit" onclick="loadGetMsg()">
+    </form>
+    <div id="getrespmsg"></div>
+
+    <script>
+        function loadGetMsg() {
+            let nameVar = document.getElementById("name").value;
+
+            if (!nameVar) {
+                document.getElementById("getrespmsg").innerHTML = "Por favor, ingrese un valor válido.";
+                return;
+            }
+
+            const xhttp = new XMLHttpRequest();
+
+            xhttp.onload = function () {
+                try {
+                    let response = JSON.parse(this.responseText);
+                    document.getElementById("getrespmsg").innerHTML =
+                        `<pre>${JSON.stringify(response, null, 2)}</pre>`;
+                } catch (e) {
+                    document.getElementById("getrespmsg").innerHTML = "Error en la respuesta del servidor.";
+                }
+            };
+
+            xhttp.open("GET", `/hello?value=${encodeURIComponent(nameVar)}`);
+            xhttp.send();
+        }
+    </script>
+</body>
+
+</html>
